@@ -314,6 +314,22 @@ const Products = ({ onSelectProduct }: { onSelectProduct: (p: any) => void }) =>
   );
 };
 
+```javascript
+{ 
+  id: 'unique-id', 
+  title: 'كاشير قطع غيار موتوسيكلات', 
+  desc: '🔹 جرد في ثانية: ابحث بالموديل أو النوع واعرف القطعة موجودة ولا خلصت وأنت واقف مكانك.
+🔹 تنبيه النواقص: السيستم هيقولك "الحق اطلب تيل فرامل" قبل ما يخلص من عندك.
+🔹 حسابات الموردين: مفيش مليم هيضيع.. حساباتك مع الموردين والآجل متستفة بالقرش.
+وفر مجهودك للشغل وسيب الحسابات للمبرمج! 🚀
+💰 تقرير الأرباح: اعرف أكتر صنف بيكسبك وأكتر صنف نايم في المخزن.
+💰 منع الهالك: سيطر على مخزنك وامنع أي تلاعب أو نسيان.
+💰 سرعة البيع: خلص زبونك في ثانية بالباركود وريح نفسك من الحسابات اليدوية الغلط.', 
+  icon: <IconName className="text-cyan-400" />, 
+  downloadUrl: 'https://www.mediafire.com/file/kngnyfj6gng0qd0/Al_Mobarmeg_POS_MOTO.rar/file',
+  content: 'شرح مفصل يظهر عند الضغط على "اقرأ المزيد"' 
+}
+```
 const ProductDetail = ({ product, onBack }: { product: any, onBack: () => void }) => (
   <div className="py-24 px-6 max-w-4xl mx-auto">
     <button 
